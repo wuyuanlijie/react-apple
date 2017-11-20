@@ -1,7 +1,5 @@
 # react-apple
 react练手项目 + react-redux + immutable
-# vue-eleme-app
-
 
 ## Build Setup
 
