@@ -19,7 +19,7 @@ export default (state = initState, action) => {
       //   isPicking: true
       // })
       // return newState
-      return fromJS(state).set('isPicking', true).toJS()
+      return fromJS(state).set('isPicking', true).toJS();
     case 'apple/DONE_PICK_APPLE':
       let newApple = {
         id: state.newAppleId,
