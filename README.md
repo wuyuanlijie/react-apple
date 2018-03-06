@@ -1,6 +1,8 @@
 # react-apple
 react练手项目 + react-redux + immutable
 
+学习react-redux
+
 ## Build Setup
 
 ``` bash
