@@ -21,7 +21,6 @@ let actions = {
       }).catch(e => {
         dispatch(actions.failPickApple(e.statusText))
       })
-  
   },
   // 代表返回这个对象 () =>  ({})
   beginPickApple: () => ({

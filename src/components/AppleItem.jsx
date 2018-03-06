@@ -16,7 +16,6 @@ class AppleItem extends Component {
     // 数据模拟区域 
     // console.log(typeof(eatApple))
     if (apple.isEaten) return null;  // 如果是已经吃了 那就不用去显示
-    // onClick 点击事件的触发 里面放置一个函数
     return (
       <div className="appleItem">
         <div className="apple">

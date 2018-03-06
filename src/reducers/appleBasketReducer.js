@@ -37,15 +37,7 @@ export default (state = initState, action) => {
       // return newState
       return fromJS(state).set('isPicking', false).toJS()
     case 'apple/EAT_APPLE':
-      // newState = Object.assign({}, state, {
-      //   apples: [
-      //     ...state.apples.slice(0, action.payload),
-      //     Object.assign({}, state.apples[action.payload], {isEaten: true}),
-      //     ...state.apples.slice(action.payload + 1)
-      //   ]
-      // })
-      // return newState
-      // 根据id查找引值的apples数组 找到isEaten的属性 将isEaten设置为true 表示已经吃了
+
       return fromJS(state).setIn(['apples', action.payload, 'isEaten'], true).toJS()
       
     default:
